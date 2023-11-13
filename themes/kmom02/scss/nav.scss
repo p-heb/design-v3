@@ -1,0 +1,14 @@
+.nav {
+    a {
+        font-size: 2rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        border-bottom: 3px solid $accent-color;
+    }
+
+    .active a {
+        color: $accent-color;
+    }
+}

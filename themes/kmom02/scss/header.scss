@@ -1,0 +1,8 @@
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    border-bottom: 3px solid $border-color;
+}
