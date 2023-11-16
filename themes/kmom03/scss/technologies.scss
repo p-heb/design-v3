@@ -1,0 +1,103 @@
+.landingpage {
+    width: 40vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em 1em;
+    margin: 0 auto 2em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.box {
+    background-color: $tech-color;
+    padding-bottom: 2em;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 10px 1px $shadow-color;
+
+    h2 {
+        padding: 0.7em;
+        margin: 0;
+    }
+
+    a {
+        color: $font-color;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $accent-color;
+        border-bottom: 3px solid $accent-color;
+    }
+}
+
+.box:hover {
+    background-color: $background-color;
+    box-shadow: 2px 2px 10px 1px $shadow-color;
+}
+
+.span1 {
+    grid-column: span 1;
+}
+
+.span2 {
+    grid-column: span 2;
+}
+
+.span3 {
+    grid-column: span 3;
+}
+
+.tech-main {
+    max-width: 100%;
+}
+
+.single-technology {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.article-content {
+    max-width: 50%;
+}
+
+.menu {
+    li {
+        list-style-type: none;
+        margin-bottom: 0.5em;
+    }
+
+    a {
+        font-family: $font-familiy-headings;
+        font-weight: bold;
+        color: $font-color;
+        text-decoration: none;
+        font-size: 1.1em;
+
+    }
+
+    a:hover {
+        border-bottom: 2px solid $accent-color;
+    }
+
+    .active a {
+        color: $accent-color;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .landingpage {
+        width: 50vw;
+    }
+
+    .box {
+        grid-column: span 3;
+    }
+
+    .menu {
+        display: none;
+    }
+}

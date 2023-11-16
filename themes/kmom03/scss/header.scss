@@ -1,0 +1,53 @@
+.header, .site-header {
+    display: flex;
+}
+
+.header {
+    flex-direction: column;
+}
+
+.title,
+.logo,
+.filler {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.title {
+    text-align: center;
+    padding: 1rem 0;
+
+    p {
+        text-align: center;
+    }
+}
+
+.logo {
+    padding: 1rem 0;
+
+    img {
+        max-width: 7rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    
+    .title {
+        min-width: 50%;
+    }
+    
+    .logo img {
+        max-width: 5rem;
+    }
+}
+
+.title * {
+    color: $font-color;
+}
+
+.title p {
+    font-style: italic;
+}
