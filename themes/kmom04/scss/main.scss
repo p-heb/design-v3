@@ -1,0 +1,18 @@
+.main {
+    max-width: 65em;
+    margin: 0 auto;
+    padding: 2rem;
+
+    img {
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px 1px $color-3-alt;
+    }
+
+    a {
+        color: $color-1;
+    }
+}
+
+.me {
+    max-width: 20em;
+}
