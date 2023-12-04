@@ -10,12 +10,12 @@
     "lint": "stylelint \"**/*.scss\"",
     "style": "npm run style-light && npm run style-dark",
     "style-min": "npm run style-light-min && npm run style-dark-min",
-    "style-light": "sass kmom04/scss/style.scss kmom04/css/style.css --no-source-map",
-    "style-light-min": "sass kmom04/scss/style.scss kmom04/css/style.min.css --no-source-map --style compressed",
-    "style-dark": "sass kmom04/scss/style-dark.scss kmom04/css/style-dark.css --no-source-map",
-    "style-dark-min": "sass kmom04/scss/style-dark.scss kmom04/css/style-dark.min.css --no-source-map --style compressed",
-    "watch": "sass kmom04/scss/style.scss:kmom04/css/style.css kmom04/scss/style-dark.scss:kmom04/css/style-dark.css --no-source-map --watch",
-    "watch-min": "sass kmom04/scss/style.scss:kmom04/css/style.min.css kmom04/scss/style-dark.scss:kmom04/css/style-dark.min.css --no-source-map --style compressed --watch"
+    "style-light": "sass kmom05/scss/style.scss kmom05/css/style.css --no-source-map",
+    "style-light-min": "sass kmom05/scss/style.scss kmom05/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass kmom05/scss/style-dark.scss kmom05/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass kmom05/scss/style-dark.scss kmom05/css/style-dark.min.css --no-source-map --style compressed",
+    "watch": "sass kmom05/scss/style.scss:kmom05/css/style.css kmom05/scss/style-dark.scss:kmom05/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass kmom05/scss/style.scss:kmom05/css/style.min.css kmom05/scss/style-dark.scss:kmom05/css/style-dark.min.css --no-source-map --style compressed --watch"
   },
   "keywords": [],
   "author": "",
