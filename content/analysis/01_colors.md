@@ -35,7 +35,7 @@ Resultat
 
 ### klart.se
 
-<a href="%base_url%?image/klart.png">![Screenshot av klart.se](%base_url%/image/klart.png "klart") {.small}</a>
+<a class="reportlink" href="%base_url%?image/klart.png">![Screenshot av klart.se](%base_url%/image/klart.png?w=250&crop=1920,1920,0,0 "klart") {.small}</a>
 
 Om man bortser från den blå fägen som klart.se använder sig i sin logga så vill jag påstå att de använder sig av ett monokromt färgschema.
 Färgerna och typsnittet som används tycker jag skapar ett lugn där ingenting sticker ut i ögonen, vilket också öppnar upp för att använda andra färger om
@@ -65,7 +65,7 @@ det är något man tillfälligt vill att besökare ska notera.
 
 ### smhi.se
 
-<a href="%base_url%?image/smhi.png">![Screenshot av smhi.se](%base_url%/image/smhi.png "smhi") {.small}</a>
+<a class="reportlink" href="%base_url%?image/smhi.png">![Screenshot av smhi.se](%base_url%/image/smhi.png?w=250&crop=1920,1920,0,0 "smhi") {.small}</a>
 
 Jag vill helst säga att smhi använder sig av ett monokromt färgschema. Den orangea färgen kompletterar de blå men den påträffas väldigt lite på sidan.
 Färg används sparsamt och tillsammans med typsnitten skapas ett sakligt och lugnt utseende och här igen kan andra färger utnyttjas för att lätt rikta besökares
@@ -93,7 +93,7 @@ uppmärksamhet.
 
 ### foreca.se
 
-<a href="%base_url%?image/foreca.png">![Screenshot av foreca.se](%base_url%/image/foreca.png "foreca") {.small}</a>
+<a class="reportlink" href="%base_url%?image/foreca.png">![Screenshot av foreca.se](%base_url%/image/foreca.png?w=250&crop=1920,1920,0,0 "foreca") {.small}</a>
 
 Foreca använder sig av både mer färg och mer olika färger på sin webbplats. Här vill jag påstå att de i grunden använder sig av ett analogt färgschema.
 Deras blå toner neutrala typsnitt ger återigen ett lugnt intryck, dock så tycker jag personligen fägen nästan tar över lite för mycket och förstår heller inte
