@@ -15,4 +15,4 @@ Fjällvandring är ju kul också!
 
 Något som jag tycker mindre om, och förundras över, är hur tiden nästan kan stå helt stilla samtidigt som den bara rinner iväg.
 
-![Bild på Philip](image/philip.jpg "Philip") {.me}
+![Bild på Philip](image/philip.jpg&convolve=emboss-alt "Philip") {.me}
