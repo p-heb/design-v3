@@ -1,0 +1,107 @@
+.gallerymain {
+    max-width: 70em;
+    margin: 0 auto;
+    padding: 0 2em 2em;
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.gallerylanding {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+
+    h1 {
+        grid-column: span 5;
+        justify-self: center;
+    }
+}
+
+.gallerypic {
+    img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px 3px $color-3-alt;
+    }
+
+    img:hover {
+        filter: brightness(120%);
+    }
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px $color-3-alt;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wilson,
+.geodude,
+.kamakuradaibutsu,
+.robot,
+.take,
+.koi {
+    grid-column: span 1;
+}
+
+.torii,
+.sarusan,
+.kouyou,
+.karasu {
+    grid-column: span 2;
+}
+
+.unkai,
+.sakura,
+.shika {
+    grid-column: span 3;
+}
+
+.wilson,
+.geodude,
+.kamakuradaibutsu,
+.robot,
+.unkai,
+.sakura, 
+.karasu {
+    grid-row: span 1;
+}
+
+.torii,
+.sarusan,
+.kouyou,
+.koi,
+.shika {
+    grid-row: span 2;
+}
+
+.take {
+    grid-row: span 3;
+}
+
+@media screen and (max-width: 667px) {
+    .gallerypic {
+        grid-column: span 5;
+    }
+
+}
